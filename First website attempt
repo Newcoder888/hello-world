@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" rel="stylesheet">
+<head>
+
+<title> Practice Website</title>
+
+
+</head>
+<body>
+<header>
+<hr>
+<a href="about.html"> About </a>
+<a href="contact.html"> Contact </a>
+<a href="gallery.html"> Gallery</a>
+</hr>
+</header>
+
+<img src="image/laptop.jpg" alt="picture of laptop and coffee cup">  
+<h1> Hello World </h1>
+<h2> Hello World </h2>
+</body>
+<footer> 
+</footer>
+</html>
