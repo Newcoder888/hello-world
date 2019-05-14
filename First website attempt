@@ -1,34 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <link href="style.css" rel="stylesheet">
 <head>
-<!-- meta charset??-->
-<title> Practice Website</title>
+
+<title> About </title>
+
 </head>
 <body>
-<header>
-<button class="tablink" onclick="openPage (Home)">Home</button>
-<button class="tablink" onclick="openPage(Contact)">Contact</button>
-<button class="tablink" onclick="openPage (About)">About</button>
-<button class="tablink" onclick="openPage (Gallery)"> Gallery</button>
-<!-- Need JS to function these tabs -->
-
-<ol class="name"><I> Ashton J Grayson </i> </ol>
-<div id="home" class="tabcontent">
+<div class="me">
+<img src="image/me.jpg" alt="picture of me" height="150px";>
 </div>
-<div class="movement">
-<a href="home.html"> Home </a>
-<a href="about.html"> About </a>
-<a href="contact.html"> Contact </a>
-<a href="gallery.html"> Gallery</a>
-</div>
-<!-- hr tag think this should be done using css -->
-<!-- look at how to position links to the right -->
-</header>
-<div></div>
-<id></id>
-
-<!-- look at theroy of nav, div, id ,section, and aside tags -->
-
-<img src="image/laptop.jpg" alt="picture of laptop and coffee cup" class="background-image">
+<!--size shouldnt change in html needs to be css but cant figure it out -->
+<!-- image will download large and slow the website down, reduce size in photoshop and save -->
+<p><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida fringilla massa et tincidunt. Aenean nec luctus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum congue, est sed varius pellentesque, ex magna viverra turpis, sit amet ornare purus odio id urna. Phasellus vitae enim id ex sagittis lobortis sed quis metus. Mauris interdum cursus neque id convallis. Aliquam rhoncus lorem arcu, vitae vulputate eros laoreet at. Maecenas massa nisi, imperdiet a euismod ut, efficitur ac elit. Suspendisse ut mauris tempor quam elementum iaculis sed in mi.</p></div>
+<!-- divides info into newspaper artile style or blogs or forums?? not worked? -->
+<p><div> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida fringilla massa et tincidunt. Aenean nec luctus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum congue, est sed varius pellentesque, ex magna viverra turpis, sit amet ornare purus odio id urna. Phasellus vitae enim id ex sagittis lobortis sed quis metus. Mauris interdum cursus neque id convallis. Aliquam rhoncus lorem arcu, vitae vulputate eros laoreet at. Maecenas massa nisi, imperdiet a euismod ut, efficitur ac elit. Suspendisse ut mauris tempor quam elementum iaculis sed in mi.</p></div>
+<!-- div is used to section out, easier when using css, will add id and classes to div -->
 
