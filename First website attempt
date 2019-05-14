@@ -2,24 +2,33 @@
 <html lang="en">
 <link href="style.css" rel="stylesheet">
 <head>
-
+<!-- meta charset??-->
 <title> Practice Website</title>
-
-
 </head>
 <body>
 <header>
-<hr>
+<button class="tablink" onclick="openPage (Home)">Home</button>
+<button class="tablink" onclick="openPage(Contact)">Contact</button>
+<button class="tablink" onclick="openPage (About)">About</button>
+<button class="tablink" onclick="openPage (Gallery)"> Gallery</button>
+<!-- Need JS to function these tabs -->
+
+<ol class="name"><I> Ashton J Grayson </i> </ol>
+<div id="home" class="tabcontent">
+</div>
+<div class="movement">
+<a href="home.html"> Home </a>
 <a href="about.html"> About </a>
 <a href="contact.html"> Contact </a>
 <a href="gallery.html"> Gallery</a>
-</hr>
+</div>
+<!-- hr tag think this should be done using css -->
+<!-- look at how to position links to the right -->
 </header>
+<div></div>
+<id></id>
 
-<img src="image/laptop.jpg" alt="picture of laptop and coffee cup">  
-<h1> Hello World </h1>
-<h2> Hello World </h2>
-</body>
-<footer> 
-</footer>
-</html>
+<!-- look at theroy of nav, div, id ,section, and aside tags -->
+
+<img src="image/laptop.jpg" alt="picture of laptop and coffee cup" class="background-image">
+
